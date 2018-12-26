@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\2CS SIQ\SYSE\Projet\didact_hdl\didact_top.ncd
+OUTFILE=E:\2CS SIQ\SYSE\Projet\didact_hdl\didact_top.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=E:\2CS SIQ\SYSE\Projet\didact_hdl
+LICENSE=WebPack
+USER_INFO=211613366_0_0_850

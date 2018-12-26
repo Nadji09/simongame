@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/2CS SIQ/SYSE/Projet/didact_hdl/didact_top_tb_isim_beh.exe" -prj "E:/2CS SIQ/SYSE/Projet/didact_hdl/didact_top_tb_beh.prj" "work.didact_top_tb" 

@@ -1,0 +1,92 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Dec 16 08:36:41 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Q_del<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "Q_del<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "bouton1" LOCATE = SITE "D9" LEVEL 1;
+COMP "bouton2" LOCATE = SITE "B8" LEVEL 1;
+COMP "Q_del<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "bouton3" LOCATE = SITE "C4" LEVEL 1;
+COMP "Q_del<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "Q_del<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Q_del<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "Q_del<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "Q_del<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "clkin" LOCATE = SITE "V10" LEVEL 1;
+COMP "rst" LOCATE = SITE "C9" LEVEL 1;
+TIMEGRP inst_dcm1_clkfx = BEL "Inst_msa_hdl/etatpres_FSM_FFd3" BEL
+        "Inst_msa_hdl/etatpres_FSM_FFd2" BEL "Inst_msa_hdl/etatpres_FSM_FFd1"
+        BEL "inst_dcm1/clkout1_buf" BEL "inst_diviseur_clk/cnt16hz_18" BEL
+        "inst_diviseur_clk/cnt16hz_17" BEL "inst_diviseur_clk/cnt16hz_16" BEL
+        "inst_diviseur_clk/cnt16hz_15" BEL "inst_diviseur_clk/cnt16hz_14" BEL
+        "inst_diviseur_clk/cnt16hz_13" BEL "inst_diviseur_clk/cnt16hz_12" BEL
+        "inst_diviseur_clk/cnt16hz_11" BEL "inst_diviseur_clk/cnt16hz_10" BEL
+        "inst_diviseur_clk/cnt16hz_9" BEL "inst_diviseur_clk/cnt16hz_8" BEL
+        "inst_diviseur_clk/cnt16hz_7" BEL "inst_diviseur_clk/cnt16hz_6" BEL
+        "inst_diviseur_clk/cnt16hz_5" BEL "inst_diviseur_clk/cnt16hz_4" BEL
+        "inst_diviseur_clk/cnt16hz_3" BEL "inst_diviseur_clk/cnt16hz_2" BEL
+        "inst_diviseur_clk/cnt16hz_1" BEL "inst_diviseur_clk/cnt16hz_0" BEL
+        "inst_diviseur_clk/cnt2hz_21" BEL "inst_diviseur_clk/cnt2hz_20" BEL
+        "inst_diviseur_clk/cnt2hz_19" BEL "inst_diviseur_clk/cnt2hz_18" BEL
+        "inst_diviseur_clk/cnt2hz_17" BEL "inst_diviseur_clk/cnt2hz_16" BEL
+        "inst_diviseur_clk/cnt2hz_15" BEL "inst_diviseur_clk/cnt2hz_14" BEL
+        "inst_diviseur_clk/cnt2hz_13" BEL "inst_diviseur_clk/cnt2hz_12" BEL
+        "inst_diviseur_clk/cnt2hz_11" BEL "inst_diviseur_clk/cnt2hz_10" BEL
+        "inst_diviseur_clk/cnt2hz_9" BEL "inst_diviseur_clk/cnt2hz_8" BEL
+        "inst_diviseur_clk/cnt2hz_7" BEL "inst_diviseur_clk/cnt2hz_6" BEL
+        "inst_diviseur_clk/cnt2hz_5" BEL "inst_diviseur_clk/cnt2hz_4" BEL
+        "inst_diviseur_clk/cnt2hz_3" BEL "inst_diviseur_clk/cnt2hz_2" BEL
+        "inst_diviseur_clk/cnt2hz_1" BEL "inst_diviseur_clk/cnt2hz_0" BEL
+        "inst_diviseur_clk/cnt2khz_11" BEL "inst_diviseur_clk/cnt2khz_10" BEL
+        "inst_diviseur_clk/cnt2khz_9" BEL "inst_diviseur_clk/cnt2khz_8" BEL
+        "inst_diviseur_clk/cnt2khz_7" BEL "inst_diviseur_clk/cnt2khz_6" BEL
+        "inst_diviseur_clk/cnt2khz_5" BEL "inst_diviseur_clk/cnt2khz_4" BEL
+        "inst_diviseur_clk/cnt2khz_3" BEL "inst_diviseur_clk/cnt2khz_2" BEL
+        "inst_diviseur_clk/cnt2khz_1" BEL "inst_diviseur_clk/cnt2khz_0" BEL
+        "inst_diviseur_clk/clk16hz" BEL "inst_diviseur_clk/clk2hz" BEL
+        "inst_diviseur_clk/clk2khz" BEL "inst_diviseur_clk/div2khz_temp" BEL
+        "inst_diviseur_clk/div16hz_temp" BEL "inst_diviseur_clk/div2hz_temp";
+TIMEGRP inst_dcm1_clkfx_0 = BEL "Inst_msa_hdl/etatpres_FSM_FFd3" BEL
+        "Inst_msa_hdl/etatpres_FSM_FFd2" BEL "Inst_msa_hdl/etatpres_FSM_FFd1"
+        BEL "inst_dcm1/clkout1_buf" BEL "inst_diviseur_clk/cnt16hz_18" BEL
+        "inst_diviseur_clk/cnt16hz_17" BEL "inst_diviseur_clk/cnt16hz_16" BEL
+        "inst_diviseur_clk/cnt16hz_15" BEL "inst_diviseur_clk/cnt16hz_14" BEL
+        "inst_diviseur_clk/cnt16hz_13" BEL "inst_diviseur_clk/cnt16hz_12" BEL
+        "inst_diviseur_clk/cnt16hz_11" BEL "inst_diviseur_clk/cnt16hz_10" BEL
+        "inst_diviseur_clk/cnt16hz_9" BEL "inst_diviseur_clk/cnt16hz_8" BEL
+        "inst_diviseur_clk/cnt16hz_7" BEL "inst_diviseur_clk/cnt16hz_6" BEL
+        "inst_diviseur_clk/cnt16hz_5" BEL "inst_diviseur_clk/cnt16hz_4" BEL
+        "inst_diviseur_clk/cnt16hz_3" BEL "inst_diviseur_clk/cnt16hz_2" BEL
+        "inst_diviseur_clk/cnt16hz_1" BEL "inst_diviseur_clk/cnt16hz_0" BEL
+        "inst_diviseur_clk/cnt2hz_21" BEL "inst_diviseur_clk/cnt2hz_20" BEL
+        "inst_diviseur_clk/cnt2hz_19" BEL "inst_diviseur_clk/cnt2hz_18" BEL
+        "inst_diviseur_clk/cnt2hz_17" BEL "inst_diviseur_clk/cnt2hz_16" BEL
+        "inst_diviseur_clk/cnt2hz_15" BEL "inst_diviseur_clk/cnt2hz_14" BEL
+        "inst_diviseur_clk/cnt2hz_13" BEL "inst_diviseur_clk/cnt2hz_12" BEL
+        "inst_diviseur_clk/cnt2hz_11" BEL "inst_diviseur_clk/cnt2hz_10" BEL
+        "inst_diviseur_clk/cnt2hz_9" BEL "inst_diviseur_clk/cnt2hz_8" BEL
+        "inst_diviseur_clk/cnt2hz_7" BEL "inst_diviseur_clk/cnt2hz_6" BEL
+        "inst_diviseur_clk/cnt2hz_5" BEL "inst_diviseur_clk/cnt2hz_4" BEL
+        "inst_diviseur_clk/cnt2hz_3" BEL "inst_diviseur_clk/cnt2hz_2" BEL
+        "inst_diviseur_clk/cnt2hz_1" BEL "inst_diviseur_clk/cnt2hz_0" BEL
+        "inst_diviseur_clk/cnt2khz_11" BEL "inst_diviseur_clk/cnt2khz_10" BEL
+        "inst_diviseur_clk/cnt2khz_9" BEL "inst_diviseur_clk/cnt2khz_8" BEL
+        "inst_diviseur_clk/cnt2khz_7" BEL "inst_diviseur_clk/cnt2khz_6" BEL
+        "inst_diviseur_clk/cnt2khz_5" BEL "inst_diviseur_clk/cnt2khz_4" BEL
+        "inst_diviseur_clk/cnt2khz_3" BEL "inst_diviseur_clk/cnt2khz_2" BEL
+        "inst_diviseur_clk/cnt2khz_1" BEL "inst_diviseur_clk/cnt2khz_0" BEL
+        "inst_diviseur_clk/clk16hz" BEL "inst_diviseur_clk/clk2hz" BEL
+        "inst_diviseur_clk/clk2khz" BEL "inst_diviseur_clk/div2khz_temp" BEL
+        "inst_diviseur_clk/div16hz_temp" BEL "inst_diviseur_clk/div2hz_temp";
+PIN SP6_BUFIO_INSERT_ML_BUFIO2_0_pins<0> = BEL "SP6_BUFIO_INSERT_ML_BUFIO2_0"
+        PINNAME DIVCLK;
+PIN inst_dcm1/dcm_sp_inst_pins<3> = BEL "inst_dcm1/dcm_sp_inst" PINNAME CLKIN;
+TIMEGRP clkin = PIN "SP6_BUFIO_INSERT_ML_BUFIO2_0_pins<0>" PIN
+        "inst_dcm1/dcm_sp_inst_pins<3>";
+TS_clkin = PERIOD TIMEGRP "clkin" 10 ns HIGH 50%;
+TS_inst_dcm1_clkfx = PERIOD TIMEGRP "inst_dcm1_clkfx" TS_clkin / 0.16 HIGH
+        50%;
+SCHEMATIC END;
+

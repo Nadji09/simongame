@@ -1,0 +1,4 @@
+
+#Created by Constraints Editor (xc6slx4-csg225-3) - 2018/12/13
+NET "clkin" TNM_NET = clkin;
+TIMESPEC TS_clkin = PERIOD "clkin" 10 ns HIGH 50%;
